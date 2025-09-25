@@ -5,7 +5,6 @@ This module analyzes regulatory text complexity and extracts key concepts
 for effective seller communication strategy.
 
 Author: Begoña Penón
-Purpose: Amazon Sr. Communications Manager Application Portfolio
 """
 
 import re
