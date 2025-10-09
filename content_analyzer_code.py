@@ -1,8 +1,8 @@
 """
-Sustainability Communications Framework - Content Analyzer Module
+Sustainability Communications Framework - Content Analyser Module
 
-This module analyzes regulatory text complexity and extracts key concepts 
-for effective seller communication strategy.
+This module analyses regulatory text complexity and extracts key concepts 
+for an effective seller communication strategy.
 
 Author: Begoña Penón
 """
@@ -16,7 +16,7 @@ import statistics
 
 class ContentAnalyzer:
     """
-    Analyzes sustainability compliance documents to support strategic communication decisions.
+    Analyses sustainability compliance documents to support strategic communication decisions.
     
     Key capabilities:
     - Complexity scoring for different audience segments
@@ -134,7 +134,7 @@ class ContentAnalyzer:
         """
         Evaluate text suitability for multilingual seller communications.
         
-        Critical for Amazon's EU marketplace communication strategy.
+        Critical for EU marketplace communication strategy.
         """
         # Cultural-specific terms that may not translate well
         cultural_terms = [
@@ -167,9 +167,9 @@ class ContentAnalyzer:
     
     def generate_communication_recommendations(self, text: str) -> Dict:
         """
-        Strategic recommendations for Amazon seller communication campaigns.
+        Strategic recommendations for seller communication campaigns.
         
-        Combines all analysis elements into actionable communication strategy.
+        Combines all analysis elements into an actionable communication strategy.
         """
         complexity = self.analyze_text_complexity(text)
         concepts = self.extract_key_concepts(text)
@@ -537,4 +537,4 @@ if __name__ == "__main__":
     print(f"  Crisis Risk Level: {recommendations['crisis_communication_risk']}")
     print(f"  Implementation Priority: {results['implementation_priority']}")
     
-    print("\n=== Framework Ready for Amazon Implementation ===")
+    print("\n=== Framework Ready for Implementation ===")
