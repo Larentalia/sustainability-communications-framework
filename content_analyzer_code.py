@@ -53,6 +53,21 @@ class ContentAnalyzer:
             'hereinafter', 'thereof', 'whereby', 'insofar as', 'provided that'
         ]
     
+    
+    def detect_keywords(self):
+        """
+        Search keywords inside the segments and adds them to sustainability_elements.
+        """
+        for segment in self.content_segments:
+            lower_segment = segment.lower()
+            for category, keywords in self.epr_keywords.items():
+                for kw in keywords:
+                    if kw in lower_segment:
+                        self.sustainability_elements.append((kw, category))
+        return self.sustainability_elements
+
+
+
     def analyze_text_complexity(self, text: str) -> Dict:
         """
         Comprehensive text complexity analysis for communication strategy planning.
