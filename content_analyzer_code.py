@@ -24,7 +24,11 @@ class ContentAnalyzer:
     - Translation readiness assessment for multilingual campaigns
     """
     
-    def __init__(self):
+    def __init__(self, content_segments):
+        # Save segments received from class instantiation
+        self.content_segments = content_segments
+        self.sustainability_elements = []
+
         # Common sustainability/EPR terminology for enhanced analysis
         self.epr_keywords = {
             'high_priority': [
