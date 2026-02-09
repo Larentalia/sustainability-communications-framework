@@ -9,15 +9,13 @@ This repository demonstrates a systematic approach to developing effective commu
 
 **Solution**: A framework that combines content strategy, stakeholder analysis, and automated content optimisation to create scalable, personalised communications.
 
-```
-## Course Learning Integration
+# Course Learning Integration
 
-As of February 17, 2026, this repository is being enhanced through an official INAEM Environmental Management course (CEOE Aragón, 430 hours).
+As of February 17 2026, this repository is being enhanced through an official INAEM Environmental Management course (CEOE Aragón, 430 hours).
 
 **Learning documentation**: See [`COURSE_PROGRESS.md`](./COURSE_PROGRESS.md) for timeline and [`learning/`](./learning/) for detailed course notes and applied improvements to the framework.
 
 **Goal**: Transform course knowledge into stronger, more technically-grounded sustainability communications solutions.
-```
 
 ## Repository Structure
 
