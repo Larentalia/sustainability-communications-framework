@@ -11,30 +11,12 @@ This repository demonstrates a systematic approach to developing effective commu
 
 # Course Learning Integration
 
-As of 17 February 2026, this repository is being enhanced through an official INAEM Environmental Management course (CEOE Aragón, 430 hours).
+As of February 17, 2026, this repository is being enhanced through an official INAEM Environmental Management course (CEOE Aragón, 430 hours).
 
 **Learning documentation**: See [`COURSE_PROGRESS.md`](./COURSE_PROGRESS.md) for timeline and [`learning/`](./learning/) for detailed course notes and applied improvements to the framework.
 
 **Goal**: Transform course knowledge into stronger, more technically-grounded sustainability communications solutions.
-
-## Project Status
-
-### Implemented & Maintained
-- ✅ **`src/content_analyzer.py`** — Text analysis and complexity scoring (fully functional)
-- 📚 **`learning/`** — Course learning documentation & framework improvements (in progress during INAEM course)
-
-### In Development (Feb-Jun 2026)
-- 🔄 **`src/stakeholder_mapper.py`** — Being developed based on course learnings
-- 🔄 **`src/compliance_tracker.py`** — Being developed based on course learnings
-- 🔄 **`src/message_optimizer.py`** — Planned for later phase
-- 📋 **`/docs/`** — To be populated with implementation learnings and case studies
-
-### Scaffolding / Planned
-- 📋 **`/examples/`** — Real-world case studies (pending practice placement)
-- 📋 **`/data/`** — To be enhanced with regulatory intelligence and personas
-- 📋 **`requirements.txt`** — Will be updated as new dependencies are added
-
-See [`COURSE_PROGRESS.md`](./COURSE_PROGRESS.md) for detailed development timeline and milestone tracking.
+```
 
 ## Repository Structure
 
