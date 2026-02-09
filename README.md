@@ -7,7 +7,17 @@ This repository demonstrates a systematic approach to developing effective commu
 
 **Problem Statement**: Sustainability regulations like Extended Producer Responsibility (EPR) create complex compliance requirements that need to be communicated clearly to diverse, global seller communities.
 
-**Solution**: A framework combining content strategy, stakeholder analysis, and automated content optimization to create scalable, personalized communications.
+**Solution**: A framework that combines content strategy, stakeholder analysis, and automated content optimisation to create scalable, personalised communications.
+
+```
+## Course Learning Integration
+
+As of February 17, 2026, this repository is being enhanced through an official INAEM Environmental Management course (CEOE Aragón, 430 hours).
+
+**Learning documentation**: See [`COURSE_PROGRESS.md`](./COURSE_PROGRESS.md) for timeline and [`learning/`](./learning/) for detailed course notes and applied improvements to the framework.
+
+**Goal**: Transform course knowledge into stronger, more technically-grounded sustainability communications solutions.
+```
 
 ## Repository Structure
 
@@ -20,7 +30,7 @@ sustainability-communications-framework/
 ├── src/
 │   ├── content_analyzer.py           # Text analysis and complexity scoring
 │   ├── stakeholder_mapper.py         # Seller segmentation and persona mapping
-│   ├── message_optimizer.py          # Content adaptation and personalization
+│   ├── message_optimizer.py          # Content adaptation and personalisation
 │   └── compliance_tracker.py         # Regulation monitoring and alert system
 │
 ├── data/
@@ -33,21 +43,38 @@ sustainability-communications-framework/
 │   ├── crisis_response_framework.md  # Crisis communication templates
 │   └── stakeholder_journey_map.md    # Seller communication touchpoint analysis
 │
+├── learning/                          # NEW- Environmental management course documentation 
+│   ├── README.md                      # Learning index
+│   ├── course_overview.md             # Course and objectives summary
+│   ├── modules/
+│   │   ├── MF1971_3_policies.md     # Policies
+│   │   ├── MF1972_3_specs.md         # Enviromental aspects
+│   │   ├── MF1973_3_systems.md      # Management systems
+│   │   ├── MF1974_3_prevention.md    # Risk prevention
+│   ├── applied_learnings/             # How this course connects with this framework
+│   │   ├── content_analyzer_improvements.md
+│   │   ├── stakeholder_insights.md
+│   │   └── regulatory_depth.md
+│   └── work_in_progress/              # Daily notes, prompt ideas
+│
 ├── docs/
 │   ├── methodology.md                 # Strategic communication framework
-│   ├── implementation_guide.md       # How to deploy in enterprise environment
+│   ├── implementation_guide.md       # How to deploy in an enterprise environment
 │   └── success_metrics.md           # KPIs and measurement framework
 │
 └── tests/
-    ├── test_content_analyzer.py
-    ├── test_stakeholder_mapper.py
-    └── test_message_optimizer.py
+│   ├── test_content_analyzer.py
+│   ├── test_stakeholder_mapper.py
+│   └── test_message_optimizer.py
+│
+└── COURSE_PROGRESS.md                # Main timeline and milestone tracker
+
 ```
 
 ## Core Modules
 
-### 1. Content Analyzer (`content_analyzer.py`)
-- **Complexity Scoring**: Analyzes regulatory text for reading level, technical density
+### 1. Content Analyser (`content_analyzer.py`)
+- **Complexity Scoring**: Analyses regulatory text for reading level, technical density
 - **Key Concept Extraction**: Identifies critical compliance points requiring emphasis
 - **Translation Readiness**: Flags content requiring localization considerations
 
@@ -56,10 +83,10 @@ sustainability-communications-framework/
 - **Communication Preferences**: Maps preferred channels and content formats per segment
 - **Risk Assessment**: Identifies high-risk sellers requiring priority communication
 
-### 3. Message Optimizer (`message_optimizer.py`)
-- **Content Adaptation**: Tailors message complexity and format to audience segment
-- **Channel Optimization**: Adapts content for different communication channels
-- **Personalization Engine**: Creates targeted messaging based on seller profile
+### 3. Message Optimiser (`message_optimizer.py`)
+- **Content Adaptation**: Tailors message complexity and format to the audience segment
+- **Channel Optimisation**: Adapts content for different communication channels
+- **Personalisation Engine**: Creates targeted messaging based on seller profile
 
 ### 4. Compliance Tracker (`compliance_tracker.py`)
 - **Regulation Monitoring**: Tracks changes in sustainability regulations across EU markets
@@ -72,7 +99,7 @@ sustainability-communications-framework/
 1. **Regulatory Landscape Mapping**
    - Identify current and upcoming sustainability requirements
    - Map regulatory complexity and seller impact
-   - Create compliance timeline and milestone tracking
+   - Create a compliance timeline and milestone tracking
 
 2. **Stakeholder Analysis**
    - Segment seller base by compliance readiness and business characteristics  
@@ -86,13 +113,13 @@ sustainability-communications-framework/
    - Cross-cultural adaptation guidelines
 
 2. **Channel Strategy**
-   - Omnichannel approach optimized for seller preferences
+   - Omnichannel approach optimised for seller preferences
    - Crisis communication escalation protocols
    - Feedback loop integration for continuous improvement
 
-### Phase 3: Implementation & Optimization
+### Phase 3: Implementation & Optimisation
 1. **Campaign Development**
-   - Personalized communication sequences
+   - Personalised communication sequences
    - A/B testing framework for message effectiveness
    - Performance tracking and sentiment analysis
 
@@ -106,7 +133,7 @@ sustainability-communications-framework/
 ### AI-Assisted Content Creation
 - **Regulatory Text Simplification**: Automatic translation of complex legal language
 - **Multilingual Optimization**: Culture-aware content adaptation
-- **Dynamic Personalization**: Real-time message customization based on seller behavior
+- **Dynamic Personalisation**: Real-time message customisation based on seller behaviour
 
 ### Predictive Communication Planning
 - **Compliance Risk Modeling**: Identify sellers likely to face challenges
@@ -147,9 +174,9 @@ sustainability-communications-framework/
 
 - **Python 3.8+** for text analysis and automation
 - **Natural Language Processing** libraries (spaCy, NLTK)
-- **Data Visualization** tools (matplotlib, plotly) 
+- **Data Visualisation** tools (matplotlib, plotly) 
 - **API Integration** capabilities for platform connectivity
-- **Machine Learning** frameworks for personalization (scikit-learn)
+- **Machine Learning** frameworks for personalisation (scikit-learn)
 
 ## Getting Started
 
@@ -179,9 +206,9 @@ sustainability-communications-framework/
 This framework is designed to be adapted for different regulatory environments and seller ecosystems. Contributions are welcome in the following areas:
 
 - **Additional regulatory analysis modules**
-- **Enhanced personalization algorithms**  
+- **Enhanced personalisation algorithms**  
 - **Cross-platform integration capabilities**
-- **Performance optimization improvements**
+- **Performance optimisation improvements**
 
 ## License
 
@@ -190,7 +217,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Author
 
 **Begoña Penón**  
-Digital Communications Strategist specializing in complex content translation and stakeholder engagement.
+Digital Communications Strategist specialising in complex content translation and stakeholder engagement.
 
 *"Transforming regulatory complexity into clear, actionable communications that drive compliance and enhance seller experience."*
 
