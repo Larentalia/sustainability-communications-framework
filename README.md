@@ -9,15 +9,32 @@ This repository demonstrates a systematic approach to developing effective commu
 
 **Solution**: A framework that combines content strategy, stakeholder analysis, and automated content optimisation to create scalable, personalised communications.
 
-```
-## Course Learning Integration
+# Course Learning Integration
 
-As of February 17, 2026, this repository is being enhanced through an official INAEM Environmental Management course (CEOE Aragón, 430 hours).
+As of 17 February 2026, this repository is being enhanced through an official INAEM Environmental Management course (CEOE Aragón, 430 hours).
 
 **Learning documentation**: See [`COURSE_PROGRESS.md`](./COURSE_PROGRESS.md) for timeline and [`learning/`](./learning/) for detailed course notes and applied improvements to the framework.
 
 **Goal**: Transform course knowledge into stronger, more technically-grounded sustainability communications solutions.
-```
+
+## Project Status
+
+### Implemented & Maintained
+- ✅ **`src/content_analyzer.py`** — Text analysis and complexity scoring (fully functional)
+- 📚 **`learning/`** — Course learning documentation & framework improvements (in progress during INAEM course)
+
+### In Development (Feb-Jun 2026)
+- 🔄 **`src/stakeholder_mapper.py`** — Being developed based on course learnings
+- 🔄 **`src/compliance_tracker.py`** — Being developed based on course learnings
+- 🔄 **`src/message_optimizer.py`** — Planned for later phase
+- 📋 **`/docs/`** — To be populated with implementation learnings and case studies
+
+### Scaffolding / Planned
+- 📋 **`/examples/`** — Real-world case studies (pending practice placement)
+- 📋 **`/data/`** — To be enhanced with regulatory intelligence and personas
+- 📋 **`requirements.txt`** — Will be updated as new dependencies are added
+
+See [`COURSE_PROGRESS.md`](./COURSE_PROGRESS.md) for detailed development timeline and milestone tracking.
 
 ## Repository Structure
 
@@ -28,10 +45,10 @@ sustainability-communications-framework/
 ├── requirements.txt                   # Python dependencies
 │
 ├── src/
-│   ├── content_analyzer.py           # Text analysis and complexity scoring
-│   ├── stakeholder_mapper.py         # Seller segmentation and persona mapping
-│   ├── message_optimizer.py          # Content adaptation and personalisation
-│   └── compliance_tracker.py         # Regulation monitoring and alert system
+│   ├── content_analyzer.py           # ✅ Text analysis and complexity scoring
+│   ├── stakeholder_mapper.py         # 🔄 Seller segmentation and persona mapping
+│   ├── message_optimizer.py          # 🔄 Content adaptation and personalisation
+│   └── compliance_tracker.py         # 🔄 Regulation monitoring and alert system
 │
 ├── data/
 │   ├── sample_regulations/            # Example EPR texts for analysis
@@ -43,52 +60,53 @@ sustainability-communications-framework/
 │   ├── crisis_response_framework.md  # Crisis communication templates
 │   └── stakeholder_journey_map.md    # Seller communication touchpoint analysis
 │
-├── learning/                          # NEW- Environmental management course documentation 
+├── learning/                          # 📚 Environmental management course documentation 
 │   ├── README.md                      # Learning index
 │   ├── course_overview.md             # Course and objectives summary
 │   ├── modules/
-│   │   ├── MF1971_3_policies.md     # Policies
-│   │   ├── MF1972_3_specs.md         # Enviromental aspects
-│   │   ├── MF1973_3_systems.md      # Management systems
-│   │   ├── MF1974_3_prevention.md    # Risk prevention
-│   ├── applied_learnings/             # How this course connects with this framework
+│   │   ├── MF1971_3_policies.md      # Normative & internal policies
+│   │   ├── MF1972_3_specs.md         # Environmental aspects
+│   │   ├── MF1973_3_systems.md       # Management systems
+│   │   └── MF1974_3_prevention.md    # Risk prevention
+│   ├── applied_learnings/             # How course learning improves the framework
 │   │   ├── content_analyzer_improvements.md
 │   │   ├── stakeholder_insights.md
 │   │   └── regulatory_depth.md
-│   └── work_in_progress/              # Daily notes, prompt ideas
+│   └── work_in_progress/              # Daily notes and learning reflections
 │
 ├── docs/
 │   ├── methodology.md                 # Strategic communication framework
-│   ├── implementation_guide.md       # How to deploy in an enterprise environment
-│   └── success_metrics.md           # KPIs and measurement framework
+│   ├── implementation_guide.md        # How to deploy in an enterprise environment
+│   └── success_metrics.md             # KPIs and measurement framework
 │
-└── tests/
+├── tests/
 │   ├── test_content_analyzer.py
 │   ├── test_stakeholder_mapper.py
 │   └── test_message_optimizer.py
 │
-└── COURSE_PROGRESS.md                # Main timeline and milestone tracker
+├── COURSE_PROGRESS.md                 # Timeline and milestone tracker
+└── LICENSE                            # MIT License
 
 ```
 
 ## Core Modules
 
-### 1. Content Analyser (`content_analyzer.py`)
+### 1. Content Analyser (`content_analyzer.py`) ✅
 - **Complexity Scoring**: Analyses regulatory text for reading level, technical density
 - **Key Concept Extraction**: Identifies critical compliance points requiring emphasis
 - **Translation Readiness**: Flags content requiring localization considerations
 
-### 2. Stakeholder Mapper (`stakeholder_mapper.py`)
+### 2. Stakeholder Mapper (`stakeholder_mapper.py`) 🔄
 - **Seller Segmentation**: Creates personas based on business size, category, experience level
 - **Communication Preferences**: Maps preferred channels and content formats per segment
 - **Risk Assessment**: Identifies high-risk sellers requiring priority communication
 
-### 3. Message Optimiser (`message_optimizer.py`)
+### 3. Message Optimiser (`message_optimizer.py`) 🔄
 - **Content Adaptation**: Tailors message complexity and format to the audience segment
 - **Channel Optimisation**: Adapts content for different communication channels
 - **Personalisation Engine**: Creates targeted messaging based on seller profile
 
-### 4. Compliance Tracker (`compliance_tracker.py`)
+### 4. Compliance Tracker (`compliance_tracker.py`) 🔄
 - **Regulation Monitoring**: Tracks changes in sustainability regulations across EU markets
 - **Impact Analysis**: Assesses which seller segments are affected by new requirements
 - **Alert Prioritization**: Creates tiered communication urgency levels
