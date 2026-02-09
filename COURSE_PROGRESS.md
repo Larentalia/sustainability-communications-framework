@@ -16,7 +16,7 @@
 - [ ] MF1971_3: Normative & Policies (50h) - starts week 1
 
 **Expected learning deliverables**:
-- [ ] `learning/modules/MF1971_3_normative.md` - initial notes
+- [ ] `learning/modules/MF1971_3_policies.md` - initial notes
 - [ ] First regulatory complexity patterns identified
 - [ ] Initial insights for compliance_tracker improvements
 
@@ -120,7 +120,7 @@
 
 ### MF1971_3: Normative & Policies (50h)
 - [ ] Course attended
-- [ ] `learning/modules/MF1971_3_normative.md` - complete
+- [ ] `learning/modules/MF1971_3_policies.md` - complete
 - [ ] Key regulatory patterns identified
 - [ ] Regulatory complexity dimensions understood
 - [ ] Applied to `compliance_tracker.py` improvements
