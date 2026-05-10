@@ -30,7 +30,7 @@ As of February 17 2026, this repository is being enhanced through an official IN
 - 📋 **`/docs/`** — To be populated with implementation learnings and case studies
 
 ### Scaffolding / Planned
-- 📋 **`/examples/`** — Real-world case studies (pending practice placement)
+- 📋 **`/examples/`** — Real-world case studies (pending apprenticeship placement)
 - 📋 **`/data/`** — To be enhanced with regulatory intelligence and personas
 - 📋 **`requirements.txt`** — Will be updated as new dependencies are added
 
