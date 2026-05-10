@@ -11,7 +11,7 @@ This repository demonstrates a systematic approach to developing effective commu
 
 # Course Learning Integration
 
-As of February 17 2026, this repository is being enhanced through an official INAEM Environmental Management course (CEOE Aragón, 430 hours).
+As of February 17 2026, this repository is being enhanced through an official INAEM Environmental Management course (CEOE Aragón, 500 hours).
 
 **Learning documentation**: See [`COURSE_PROGRESS.md`](./COURSE_PROGRESS.md) for timeline and [`learning/`](./learning/) for detailed course notes and applied improvements to the framework.
 
@@ -235,9 +235,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Author
 
 **Begoña Penón**  
-Digital Communications Strategist specialising in complex content translation and stakeholder engagement.
-
-*"Transforming regulatory complexity into clear, actionable communications that drive compliance and enhance seller experience."*
+Communications professional specialising in sustainability communications and environmental management. #ZeroGreenwashing
 
 ---
 
