@@ -3,7 +3,7 @@
 
 ## Project Overview
 
-This repository demonstrates a systematic approach to developing effective communications for sustainability compliance requirements, specifically designed for e-commerce marketplaces and selling partner ecosystems.
+This repository demonstrates a systematic approach to developing effective communications for sustainability compliance requirements.
 
 **Problem Statement**: Sustainability regulations like Extended Producer Responsibility (EPR) create complex compliance requirements that need to be communicated clearly to diverse, global seller communities.
 
