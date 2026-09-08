@@ -64,7 +64,7 @@ sustainability-communications-framework/
 │   ├── README.md                      # Learning index
 │   ├── course_overview.md             # Course and objectives summary
 │   ├── modules/
-│   │   ├── MF1971_3_policies.md     # Normative and internal policies
+│   │   ├── MF1971_3_policies.md     # Public environmental policies
 │   │   ├── MF1972_3_specs.md         # Enviromental aspects
 │   │   ├── MF1973_3_systems.md      # Management systems
 │   │   ├── MF1974_3_prevention.md    # Risk prevention
@@ -233,6 +233,8 @@ This framework is designed to be adapted for different regulatory environments a
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Author
+
+Begoña Penon Garcia
 
 **Begoña Penón**  
 Communications professional specialising in sustainability communications and environmental management. #ZeroGreenwashing
